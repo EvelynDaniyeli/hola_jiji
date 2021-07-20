@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.navbar ul.nav li {
+    font-family: Arial;
+}
+
+.fondo {
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner {
+    width: 100vw;
+    height: 10vh;
+}
+
+.carro {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.flecha {
+    transform: scaleX(-1);
+    width: 50px;
+    height: 50px;
+}
+
+.item {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(226, 43, 171);
+    font-weight: bolder;
+    font-family: Arial;
+    align-content: center;
+    color: whitesmoke;
+    font-size: xx-large;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 10px;
+}
+
+.social {
+    width: 48px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    top: 50%;
+    height: 205px;
+    margin-top: -100px;
+}
+
+.social a {
+    margin-top: 5rem;
+}
+
+.resto {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 100vw;
+    height: 70vh;
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    width: 40vw;
+    height: 70vh;
+}
+
+.cuadro p {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.controls {
+    width: 12vw;
+    border: transparent;
+    padding: 10px;
+    background: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.in {
+    align-self: center;
+    width: 38vw;
+    height: 40vh;
+}
+
+#bg1 {
+    background: url("banquete.jpg") center;
+    opacity: 0.30;
+    height: 100vh;
+    width: 100vw;
+}
+
+#bg2 {
+    background: url("centromesa.jpg") center;
+    opacity: 0.30;
+    height: 100vh;
+    width: 100vw;
+}
+
+#bg3 {
+    background: url("mesasnacks.jpg") center;
+    opacity: 0.30;
+    height: 100vh;
+    width: 100vw;
+}
+
+#color-overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    opacity: 0.6;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+.sitetitle1 {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.sitetitle2 {
+    position: absolute;
+    top: 150%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.sitetitle3 {
+    position: absolute;
+    top: 250%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    color: black;
+    background-color: white;
+    font-size: 8em;
+    text-align: center;
+    letter-spacing: 8px;
+    border: 1px solid #FFFF;
+    background-color: white;
+    position: fixed;
+    border-radius: 10px;
+    padding: 20px 60px;
+    ;
+    margin-left: 90px;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+.button:hover {
+    border: 1px solid lightblue;
+}

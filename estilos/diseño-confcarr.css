@@ -1,0 +1,113 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Fondo-1.png);
+    background-size: 100%;
+}
+
+.base {
+    padding-top: 5vh;
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+.M1 {
+    width: auto;
+    height: auto;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-areas: "esp esp esp" "content content content" "footer footer footer";
+    grid-template-rows: 20% 60% 20%;
+    inline-size: 100vw;
+    height: 45vh;
+    width: 75vw;
+    background-color: cadetblue;
+}
+
+.img-1 {
+    grid-area: content;
+    margin-left: 4%;
+    width: 30%;
+    background-color: white;
+}
+
+.a {
+    background-color: violet;
+    grid-area: nav;
+    height: auto;
+    width: auto;
+}
+
+.M2 {
+    grid-area: content;
+    justify-self: center;
+    width: auto;
+    height: auto;
+    font-size: auto;
+}
+
+.M3 {
+    grid-area: content;
+    padding-top: 5%;
+    justify-self: center;
+    font-size: auto;
+    width: auto;
+    height: auto;
+}
+
+.M4 {
+    grid-area: content;
+    justify-self: center;
+    padding-top: 10%;
+    width: auto;
+    height: auto;
+    font-size: auto;
+}
+
+.M21 {
+    grid-area: content;
+    justify-self: right;
+    padding-right: 5%;
+    width: auto;
+    height: auto;
+    font-size: auto;
+}
+
+.M31 {
+    grid-area: content;
+    padding-top: 5%;
+    padding-right: 5%;
+    justify-self: right;
+    font-size: auto;
+    width: auto;
+    height: auto;
+}
+
+.M41 {
+    grid-area: content;
+    justify-self: right;
+    padding-top: 10%;
+    padding-right: 5%;
+    width: auto;
+    height: auto;
+    font-size: auto;
+}
+
+.buttons {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    justify-self: center;
+}
+
+#a {
+    width: 100px;
+    height: 50px;
+}
