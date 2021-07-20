@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,22 +12,23 @@ nav.navbar ul.nav li {
     font-family: Arial;
 }
 
-.fondo{
+.fondo {
     width: 100vw;
     height: 100vh;
 }
 
-.banner{
+.banner {
     width: 100vw;
     height: 10vh;
 }
-.resto{
+
+.resto {
     display: flex;
     flex-direction: column;
     justify-self: center;
     width: 100vw;
     height: 70vh;
-    background-image: url(logo.png);
+    background-image: url(imagenes/logo.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,61 +36,58 @@ nav.navbar ul.nav li {
 }
 
 @media only screen and (max-width: 799px) {
-    .resto{
-    background-image: url(logo.png);
-    opacity: 0.50;
+    .resto {
+        background-image: url(imagenes/logo.png);
+        opacity: 0.50;
     }
-    }
+}
 
-.bajo{
+.bajo {
     width: 40vw;
     align-self: flex-end;
 }
-.datos{
+
+.datos {
     display: flex;
     align-self: center;
     width: 40vw;
     height: 70vh;
     background-color: transparent;
 }
-.carro{
-    
+
+.carro {
     width: 40px;
     height: 40px;
 }
 
-.logo{
+.logo {
     width: 60px;
     height: 60px;
 }
 
-.flecha{
-    transform: scaleX(-1);
+.flecha {
     width: 50px;
     height: 50px;
 }
 
-.buttons 
-{
+.buttons {
     align-self: flex-start;
     cursor: pointer;
-     font-style: italic;
-     font-size: large;
-     margin-top: 20px;
-     margin-left: 72px;
-     width: 15vw;
-     height: 5vh;
-     background: #D55656;
-     border: none;
-     color: white;
-     margin-bottom: 16px;
-   
+    font-style: italic;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 72px;
+    width: 15vw;
+    height: 5vh;
+    background: #D55656;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
 }
 
-.buttons:hover
-{
+.buttons:hover {
     background-color: #D55656;
-    box-shadow: 2px 2px 20px  #D55656, #fff 0 -1px 2px;
+    box-shadow: 2px 2px 20px #D55656, #fff 0 -1px 2px;
 }
 
 .item {
@@ -103,19 +101,17 @@ nav.navbar ul.nav li {
     color: white;
 }
 
-.social{
+.social {
     /*las imágenes usadas tienen width de 48px*/
-    width:48px;
-    position:fixed;
-    top:50px;
-    right:0;
-    top:50%;
-    height:205px;
-    margin-top:-100px;
+    width: 48px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    top: 50%;
+    height: 205px;
+    margin-top: -100px;
 }
 
-
-
-.social a{
-   margin-top: 5rem;
+.social a {
+    margin-top: 5rem;
 }

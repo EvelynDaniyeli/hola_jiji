@@ -5,7 +5,7 @@
 }
 
 .contenedor {
-    background-image: url(fondo4.png);
+    background-image: url(imagenes/fondo4.png);
     background-size: 100%;
     display: grid;
     width: 100%;
@@ -28,7 +28,6 @@
 .flecha {
     cursor: pointer;
     width: 50px;
-    transform: scaleX(-1);
 }
 
 .title01 {
@@ -64,7 +63,7 @@
     width: 55vw;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .contenedor02 {
@@ -75,7 +74,7 @@
     inline-size: 100vw;
     height: 30vh;
     width: 50vw;
-    background-color: rgb(13, 218, 23);
+    background-color: rgb(112, 169, 255);
     border-radius: 10px;
     font-size: 18px;
 }
